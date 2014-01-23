@@ -18,7 +18,8 @@ class InInboxBase{
 
 	var 
 	$api_key = '',
-	$api_url='http://www.ininbox.com/api/v1/',
+	//$api_url='http://www.ininbox.com/api/v1/', //old api url
+	$api_url='http://api.ininbox.com/v1/',	//new api url
 	$curl=true,
 	$curlExists = true;
 	
